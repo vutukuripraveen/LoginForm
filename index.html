@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact App</title>
+    <!-- main CSS File -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- main JS File -->
+    <script src="main.js"></script>
+
+</head>
+
+<body onload="">
+    <div class="container" id="container">
+        <div id="nav" class="CharacterContainer">
+            <div class="navbar">
+                <h2 class="all_contacts">All Contacts</h2>
+                <!-- <button onclick="searchBar()"> -->
+                <i id="search_toggle" onclick="searchBar()" class="fa fa-chevron-down"></i>
+                <i id="search_vanish" onclick="searchBarVanish()" class="fa fa-chevron-up"></i>
+                <!-- </button> -->
+                <div class="search-box" id="search_box">
+                    <input type="text" class="search_bar" name="" placeholder="Search" id="search_bar" />
+                </div>
+                <!-- <hr /> -->
+            </div>
+            <br><br><br><br>
+            <div class="contacts" id="contacts">
+                <br>
+                <div class="side_data">
+                    <a href="#A1">A</a><br>
+                    <a href="#A1">B</a><br>
+                    <a href="#B1">C</a><br>
+                    <a href="#C1">D</a><br>
+                    <a href="#D1">L</a><br>
+                    <a href="#L1">#</a><br>
+                </div>
+                <div class="contact-num">
+
+                    <div>
+                        <div id="A1" class="head_names">
+                            <h3 class="single_contact">A</h3>
+                        </div>
+                        <p class="single_contact"> <strong>Anusha</strong></p>
+                        <p class="single_contact"> <strong>Ashwin</strong></p>
+                        <p class="single_contact"> <strong>Anil</strong></p>
+                    </div>
+                    <div>
+                        <h3 id="B1" class="single_contact">B</h3>
+                        <p class="single_contact"><strong>Balu</strong></p>
+                        <p class="single_contact"> <strong>Basava</strong></p>
+                        <p class="single_contact"> <strong>Bhrath</strong></p>
+                        <p class="single_contact"><strong>Bhargav</strong> </p>
+                    </div>
+                    <div>
+                        <h3 id="C1" class="single_contact">C</h3>
+                        <p class="single_contact"> <strong>Chandan</strong></p>
+                        <p class="single_contact"> <strong>Chandu</strong></p>
+                        <p class="single_contact"> <strong>Chaitu</strong></p>
+                    </div>
+                    <div>
+                        <h3 id="D1" class="single_contact">D</h3>
+                        <p class="single_contact"><strong>Daya</strong></p>
+                        <p class="single_contact"><strong>Dani</strong></p>
+                        <p class="single_contact"> <strong>Dhruthi</strong></p>
+                        <p class="single_contact"> <strong>Das</strong></p>
+                        <p class="single_contact"> <strong>Divakar</strong></p>
+                    </div>
+                    <div>
+                        <h3 id="L1" class="single_contact">L</h3>
+                        <p class="single_contact"> <strong>Lavanya</strong></p>
+                        <p class="single_contact"> <strong>Lakshmi</strong></p>
+                        <p class="single_contact"> <strong>Lepakshi</strong></p>
+                    </div>
+                    <div>
+                        <h3 id="Z1" class="single_contact">#</h3>
+                        <p class="single_contact">9999999999</p>
+                        <p class="single_contact">8888888888</p>
+                        <p class="single_contact">7777777777</p>
+                        <p class="single_contact">6666666666</p>
+                        <p class="single_contact">5555555555</p>
+                        <p class="single_contact">4444444444</p>
+                        <p class="single_contact">3333333333</p>
+                        <p class="single_contact">2222222222</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

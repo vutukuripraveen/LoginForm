@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    border: 2px;
+    border-color: lightblue;
+    border-style: solid;
+    max-height: 600px;
+    /* text-align: center; */
+    margin-left: 35%;
+    margin-right: 35%;
+    /*overflow: hidden;*/
+    /* position: fixed; */
+    border-width: 10px;
+}
+
+.navbar {
+    position: fixed;
+    width: 28%;
+    background-color: white;
+}
+
+#search_toggle {
+    float: right;
+    /* color: red; */
+    /* margin-left: 20%; */
+    margin-top: -9.5%;
+    margin-right: 25%;
+    display: block;
+}
+
+.all_contacts {
+    margin-left: 33%;
+}
+
+#search_vanish {
+    float: right;
+    /* color: red; */
+    /* margin-left: 20%; */
+    margin-top: -9.5%;
+    margin-right: 25%;
+    display: none;
+}
+
+.search-box {
+    width: 95%;
+    height: 45px;
+    background: #f0ffff;
+    border-radius: 1px;
+    padding: 5px;
+    display: none;
+}
+
+.search_bar {
+    width: 95%;
+    height: 36px;
+    display: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: none;
+    outline: none;
+    padding: 5px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+}
+
+.search_bar:focus {
+    color: #000;
+    box-shadow: 0 0 5px black;
+}
+
+.search-btn {
+    width: 40px;
+    height: 36px;
+    color: black;
+    float: right;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.contacts {
+    border: 1px solid black;
+    display: none;
+    /* background-color: tan; */
+}
+
+.contact-num {
+    background: #a9a9a9;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+#name_list {
+    background-color: gainsboro;
+    /* opacity: 0.8; */
+    text-decoration-color: black;
+    min-height: 50px;
+}
+
+.single_contact {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    min-height: 50px;
+    padding: 0px;
+    background-color: white;
+}
+
+.side_data {
+    /* float: right; */
+    position: fixed;
+    margin-top: 1%;
+    margin-left: 27.5%;
+}
