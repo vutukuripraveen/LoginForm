@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    background-size: cover;
+    margin: 20px;
+    border: 2px solid rebeccapurple;
+    width:300px;
+    max-height: 700px;
+}
+.list{
+    list-style-type: none;
+}
+.paragraph{
+    font-family: "roboto";
+    font-size: 15px;
+    color:black;
+    font-weight: 400;
+}
+
+.stars-count{
+    display: flex;
+    justify-content: flex-start;
+}
+.forks-count{
+    display: flex;
+    justify-content: flex-start;
+}
+.issuess-count{
+    display: flex;
+    justify-content: flex-start;
+}
+.image{
+    padding-top: 10px;
+    width: 200px;
+    height:200px;
+}
+.star-image{
+    width:50px;
+    height:50px;
+    padding-right: 30px;
+}
+.forks-image{
+    width:50px;
+    height:50px;
+    padding-right: 30px;
+}
+.issues-image{
+    width:50px;
+    height:50px;
+    padding-right: 30px;
+}
